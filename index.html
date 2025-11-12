@@ -3,16 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Number Generator</title>
+    <title>Vivacom Generator</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <div class="container">
-        <h2>Random Number Generator</h2>
-        <p>Generates 10 numbers in the 18000xxxxxx format.</p>
+        <h2>HBOMax - Vivacom Generator</h2>
+        <p>Choose a prefix to generate 10 random numbers.</p>
         
-        <button id="generateBtn">Generate Numbers</button>
+        <div class="button-group">
+            <button class="generateBtn" data-prefix="18000">Generate 18000...</button>
+            <button class="generateBtn" data-prefix="18330">Generate 18330...</button>
+        </div>
         
         <ul id="numberList">
             </ul>
