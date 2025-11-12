@@ -27,18 +27,24 @@ p {
     font-size: 0.9rem;
 }
 
-button {
+.button-group {
+    display: flex;
+    justify-content: center; /* Center the buttons */
+    gap: 10px; /* Add space between the buttons */
+}
+
+.generateBtn {
     background-color: #007bff;
     color: white;
     border: none;
-    padding: 12px 24px;
+    padding: 12px 18px;
     border-radius: 5px;
-    font-size: 16px;
+    font-size: 14px;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
 
-button:hover {
+.generateBtn:hover {
     background-color: #0056b3;
 }
 
@@ -46,11 +52,11 @@ button:hover {
     list-style-type: none; /* Removes bullets */
     padding: 0;
     margin-top: 25px;
-    font-family: 'Courier New', Courier, monospace; /* Good for numbers */
+    font-family: 'Courier New', Courier, monospace;
     font-size: 1.1rem;
     color: #444;
 }
 
 #numberList li {
-    padding: 6px 0; /* Adds spacing between numbers */
+    padding: 6px 0;
 }
